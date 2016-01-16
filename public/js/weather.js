@@ -1,5 +1,5 @@
 $(function () {
-  var cities = ['videira', 'teresina', 'sete_lagoas', 'rio_de_janeiro', 'belo_horizonte'];
+  var cities = ['videira', 'teresina', 'sete_lagoas', 'rio_de_janeiro', 'belo_horizonte', 'itarare'];
 
   _.each(cities, function (city) {
     $.get('http://api.wunderground.com/api/9ce44199e21797d8/conditions/q/BR/' + city + '.json', function (data) {
